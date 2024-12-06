@@ -1,0 +1,35 @@
+## NanoVNA setup for testing filters/Frequency Response
+
+1. MAIN MENU→ STIMULUS
+○ Set stimulus for just above and below your intended
+frequency. Ex: 6M and 8M if measuring 7M/40m Band.
+○ ←Back
+
+2. MAIN MENU→ DISPLAY→ TRACE→ TRACE 0
+○ ←Back, FORMAT S21 (THRU)→ LOGMAG
+○ ←Back, CHANNEL S21 (THRU)
+○ ←Back
+
+3. MAIN MENU→ MARKER→ SELECT MARKER→ choose MARKER 1 2 3
+○  These markers will be for the low, desired and high frequencies
+○ ←Back
+
+4. MAIN MENU→ CALIBRATE→ CALIBRATE→ choose OPEN, SHORT, LOAD, THRU,
+DONE 
+○ Setup with any cables/adapters you need to measure the filter then do the calibration
+○ ←Back
+
+5. MAIN MENU→ DISPLAY→ SCALE→ SCALE/DIV→ 5 enter
+○ This setting makes the data easier to see
+○ ←Back
+
+6. MAIN MENU→ MARKER→ SELECT MARKER→ MARKER 2
+○ This selects the desired frequency marker
+○ ←Back, SEARCH MAXIMUM, ←Back to dismiss menu
+○ This shows frequency and insertion loss
+○ Proceed to dragging Marker 1 and 3 as close as possible to
+-3.06db right and left of Marker 2’s frequency.
+○ These markers will illustrate the high and low cutoff frequencies for the desired band and also measure if you are accurate to your desired frequency. 
+○ If Marker 2 is off of your desired frequency, adjust the filter components to get on frequency
+
+Source Video: https://youtu.be/S8MCcY6dHZ4?si=eRTB4iEWa8wMED5S
