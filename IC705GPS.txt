@@ -1,0 +1,39 @@
+## Debian Configuration for Icom IC-705 for GPS
+
+### GPS
+
+# Packages to install. This will also install gpsd-tools as a dependency
+
+sudo apt install gpsd gpsd-clients
+
+# The Configuraiton file is: /etc/default/gpsd
+
+sudo nano /etc/default/gpsd
+
+# ###########################
+# Contents of File and Edits:
+# ###########################
+#
+START_DAEMON="true"
+# Devices gpsd should collect to at boot time.
+# They need to be read/writeable, either by user gpsd or the group dialout.
+# Find your IC-705: ls /dev/serial/by-id
+# USB interface to IC-705:
+DEVICES="/dev/serial/by-id/usb-Icom_Inc._IC-705_IC-705_12011226-if02"
+#
+# Other options you want to pass to gpsd
+GPSD_OPTIONS="-n"
+#
+# Automatically hot add/remove USB GPS devices via gpsdctl
+USBAUTO="true"
+# ###########################
+# From Terminal run 'cgps -s' to see the GPS data
+# 
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+CURRENTLY NOT WORKING YET
+
+### TIME SYNC
+# From current year, Debian distros are using timesyncd instead of ntp for network time syncing. We can't pull GPS time with timesyncd and instead must use chrony
+#
+sudo apt install chrony
+#
+# Config chrony to pull time from GPS:
+#
+sudo nano /etc/chrony/chrony.conf
+#
+refclock SHM 0 poll 2 refid GPS offset 0.0 delay 0.2
+refclock SOCK /var/run/chrony.sock refid PPS
+
+# Here, SHM stands for shared memory, which gpsd uses to share time information, and SOCK is for PPS (Pulse Per Second) signals if your GPS provides PPS.
+
+Configure gpsd for PPS:
+If your GPS device supports PPS, ensure gpsd is configured to use it. Add PPS=/dev/pps0 (or the correct path for your PPS device) in the /etc/default/gpsd.
+Restart Services:
+Restart both services to apply the changes:
+
+sudo systemctl restart gpsd
+sudo systemctl restart chrony
+
+Check Status:
+Verify that chrony is now using your GPS as a time source:
+bash
+chronyc sources
