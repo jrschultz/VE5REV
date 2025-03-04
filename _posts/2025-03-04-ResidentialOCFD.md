@@ -13,7 +13,7 @@ A truly awesome QTH or portable antenna is the Off-Center Fed Dipole. These and 
 
 _**As with everything on this site, the following notes are from first hand research and testing.**_
 
-I found out about this antenna originally on [YouTube](https://youtu.be/pwA1aPJcNKg?si=JAaBj4aKo-Yt1956). Then I came across this awesome presentation from Ted W3TB. I emailed him and he sent me a [link to a .PDF file](https://github.com/jrschultz/VE5REV/blob/main/assets/OCFD/ResidentialOCFD.pdf) by Dick K5QY that is mentioned in the video. It was originally published in November 2018 in the now offline CQ magazine. It has great specs and modelling for the various bands.
+I found out about this antenna originally on [YouTube](https://youtu.be/pwA1aPJcNKg?si=JAaBj4aKo-Yt1956). Then I came across this awesome presentation from Ted W3TB. I emailed him and he sent me a [link to a .PDF file](https://github.com/jrschultz/VE5REV/blob/main/assets/ROCFD/ResidentialOCFD.pdf) by Dick K5QY that is mentioned in the video. It was originally published in November 2018 in the now offline CQ magazine. It has great specs and modelling for the various bands.
 
 ![YouTube](./assets/ROCFD/OCFDYT.webp)
 
