@@ -19,7 +19,7 @@ I found out about this antenna originally on [YouTube](https://youtu.be/pwA1aPJc
 
 ### The Wire
 
-What makes this "residential" is the shorter overall length. It's not the usual 1/3 2/3 split of typical OCFD antennas. This one uses 41' and 27' sections. In my build, I connected the coax center to the longer leg and the shield side to the shorter. I used 18AWG speaker wire.
+What makes this "residential" is the shorter overall length. It's not the usual 1/3 2/3 split of typical OCFD antennas. This one uses 41' and 27' sections. I used 18AWG speaker wire. In a dipole, the current is highest at the center and tapers to zero at the ends, while voltage is highest at the ends and lowest at the center. The feed point is offset in an OCFD, so the short leg has a higher voltage-to-current ratio compared to the long leg. Connecting the coax center (the driven signal) to the short leg ensures that the phase and amplitude of the RF energy align with the natural standing wave pattern of the antenna. If you reversed it—connecting the shield to the short leg and the center to the long leg—it could disrupt the balance, increase common-mode currents on the coax shield, and degrade performance. Hence, **my understanding is the short wire should be connected to the coax center and the long wire should be connected to the coax shield.**
 
 ### The Balun
 
@@ -34,8 +34,6 @@ As for the wiring connections, I have this highly sophisticated and technical wi
 ### The Housing
 
 In my build, I housed the transformer assembly in a waterproof exterior electrical box. These are really expensive and if I was to do it again, I would look at finding a cheaper alternative gasketed project box on Amazon or someplace. But it was available and it's pretty robust. It would be best suited for a QTH install rather than portable. If you used these chunky cores, it could easily be built into PVC pipe for portable. I think it's wise to consider the thermal implications of tight builds. Having space to dissipate heat is probably not a bad thing. I used all stainless steel hardware. But you could use binding posts instead of wing nuts. 
-
-**My understanding is the short wire should be connected to the coax center and the long wire should be connected to the coax shield.**
 
 ![Balun](./assets/ROCFD/ROCFD04.webp)
 
