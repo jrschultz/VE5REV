@@ -23,11 +23,11 @@ What makes this "residential" is the shorter overall length. It's not the usual 
 
 ### The Balun
 
-It is key to use a 4:1 *Current Balun* for this build and not a Voltage UnUn. Many commercially available 4:1 transformers are voltage varieties (like the grey and green ones from LDG). You can easily homebrew your own as it's simply two 1:1 current baluns back to back. I used enamel wire on the 2643251002 Type 43 core. I used these cores because I had them in stock. They are chunkier than the 2.4" size cores but they are stellar performers. I would use Type 43 instead of Type 31 for this build whatever size cores you pick.
+It is key to use a 4:1 *Current Balun* for this build and *not* a Voltage UnUn. Many commercially available 4:1 transformers are voltage varieties (like the grey and green ones from LDG). You can easily homebrew your own as it's simply two 1:1 current baluns back to back. I used enamel wire on the 2643251002 Type 43 core. I used these cores because I had them in stock. They are chunkier than the 2.4" size cores but they are stellar performers. I would use Type 43 instead of Type 31 for this build whatever size cores you pick.
 
 ![Balun](./assets/ROCFD/ROCFD02.webp)
 
-As for the wiring connections, I have this highly sophisticated and technical wiring diagram for you LOL. I used markers to help keep the connections straight. If you had different colored teflon wire, it would be 17% nicer. This same balun could be used for a Delta Loop antenna.
+As for the wiring connections, I have this highly sophisticated and technical wiring diagram for you LOL. I used markers to help keep the connections straight. If you had different colored teflon wire, it would be 17% nicer. This same balun could be used for a Delta Loop antenna. 
 
 ![Balun](./assets/ROCFD/ROCFD03.webp)
 
@@ -35,11 +35,13 @@ As for the wiring connections, I have this highly sophisticated and technical wi
 
 In my build, I housed the transformer assembly in a waterproof exterior electrical box. These are really expensive and if I was to do it again, I would look at finding a cheaper alternative gasketed project box on Amazon or someplace. But it was available and it's pretty robust. It would be best suited for a QTH install rather than portable. If you used these chunky cores, it could easily be built into PVC pipe for portable. I think it's wise to consider the thermal implications of tight builds. Having space to dissipate heat is probably not a bad thing. I used all stainless steel hardware. But you could use binding posts instead of wing nuts. 
 
+**My understanding is the short wire should be connected to the coax center and the long wire should be connected to the coax shield.**
+
 ![Balun](./assets/ROCFD/ROCFD04.webp)
 
 ### Choke
 
-This build probably should have had another 1:1 installed at the feed point to help keep the coax from stealing current from the radiating pattern. I might still add at Type 31 first at the SO-239 before the 4:1.
+This build probably should have had another 1:1 installed at the feed point to help keep the coax from stealing current from the radiating pattern. I might still add at Type 31 choke first at the SO-239 before the 4:1.
 
 #### Testing
 
