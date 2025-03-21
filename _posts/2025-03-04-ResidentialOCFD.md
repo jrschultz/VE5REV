@@ -39,7 +39,15 @@ In my build, I housed the transformer assembly in a waterproof exterior electric
 
 ### Choke
 
-This build probably should have had another 1:1 installed at the feed point to help keep the coax from stealing current from the radiating pattern. I might still add at Type 31 choke first at the SO-239 before the 4:1.
+*UPDATE:* Upon further consideration, I decided to install a 1:1 choke inside the box. It's rather a snug configuration but it does fit. The center SO-239 connection and shield connections just hook up to the center and shield of the balun. It's reasonably robust the way I have it glued in. I then glued the soldered and shrinked shield connection to the bottom of the box. This helps to keep the balun from flopping around. The spray foam idea from Palomar would be the best choice for this I think.
+
+![Balun](./assets/ROCFD/ROCFD04b.webp)
+
+![Balun](./assets/ROCFD/ROCFD04a.webp)
+
+![Balun](./assets/ROCFD/ROCFD04c.webp)
+
+This is really the most ideal setup for this antenna now as the coax won't snag current from the radiating elements. And you don't have extra weight from an additional choke or loss from the extra coax connectors of putting one in. 
 
 #### Testing
 
