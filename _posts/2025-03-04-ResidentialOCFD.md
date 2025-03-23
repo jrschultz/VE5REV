@@ -49,11 +49,25 @@ In my build, I housed the transformer assembly in a waterproof exterior electric
 
 This is really the most ideal setup for this antenna now as the coax won't snag current from the radiating elements. And you don't have extra weight from an additional choke or loss from the extra coax connectors of putting one in. 
 
-#### Testing
+### Field Testing
 
-Attaching 200 ohms worth of resistors across the antenna connections showed really good SWR readings under 2:1 on 40m, 20m and 15m. It was slightly over 2:1 on 10m. None of these would be a problem for a rig's internal tuner to clean up or just use as is. When I did a 20M WSPR test, it showed really good patterning. I had the long leg pointing south and the short leg pointing north and I think that gain is illustrated in the WSPR pattern and seems to match the modelling in the .PDF article. 
+*UPDATE:* After installing the choke I did some more field testing with this antenna. It's fascinating that the majority of the responding stations were from the South East/Long Leg side of the antenna.
 
-![Balun](./assets/ROCFD/ROCFD05.webp)
+Here is the 20 Minutes of WSPR Data:
+
+![WSPR](./assets/ROCFD/ROCFD-WSPR.webp)
+
+Here is the NanoVNA sweep from that temporary setup:
+
+![NanoVNA](./assets/ROCFD/ROCFD-50COAX_NORIGC.webp)
+
+The 4 target bands of operation (40M,20M,15M,10M) are all under 3:1 SWR. A rig tuner could easily clean this up. You could work 6M-40M with a dedicated tuner. I think these readings would have been better if my installation height was higher. It was roughly only 25' up which isn't ideal for 40M.
+
+![Deployed](./assets/ROCFD/ROCFD07.webp)
+
+### Summary
+
+OCFD dipoles are awesome antennas. They are stellar multi-band performers. Deploying them for portable operations is a bit of a pain as you need 3 tether points. It's definitely *not* a quick setup process. However, as a QTH antenna or a camping setup where you are going to be in a place for a few days, it's a more than solid option. Resonance without a tuner may be a bit tricky depending on deployment height, but with a tuner you're golden. The setup convenience of an EFHW for portable work gets my vote though. You only need 1 deployment rope instead of 3. Both of these antennas are comparable gain-wise, 2-3dBi on fundamentals and then 5-6dBi on the higher bands in peak directions. But the OCFD may have more directivity which may be an advantage for working a specific direction.
 
 73 de VE5REV
 
