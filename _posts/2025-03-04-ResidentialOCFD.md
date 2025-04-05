@@ -19,7 +19,12 @@ I found out about this antenna originally on [YouTube](https://youtu.be/pwA1aPJc
 
 ### The Wire
 
-What makes this "residential" is the shorter overall length. It's not the usual 1/3 2/3 split of typical OCFD antennas. This one uses 41' and 27' sections. I used 18AWG speaker wire. In a dipole, the current is highest at the center and tapers to zero at the ends, while voltage is highest at the ends and lowest at the center. The feed point is offset in an OCFD, so the short leg has a higher voltage-to-current ratio compared to the long leg. Connecting the coax center (the driven signal) to the short leg ensures that the phase and amplitude of the RF energy align with the natural standing wave pattern of the antenna. If you reversed it—connecting the shield to the short leg and the center to the long leg—it could disrupt the balance, increase common-mode currents on the coax shield, and degrade performance. Hence, **my understanding is the short wire should be connected to the coax center and the long wire should be connected to the coax shield.**
+What makes this "residential" is the shorter overall length. It's not the usual 1/3 2/3 split of typical OCFD antennas. This one uses 41' and 27' sections. I used 18AWG speaker wire. 
+
+Original Post:
+>In a dipole, the current is highest at the center and tapers to zero at the ends, while voltage is highest at the ends and lowest at the center. The feed point is offset in an OCFD, so the short leg has a higher voltage-to-current ratio compared to the long leg. Connecting the coax center (the driven signal) to the short leg ensures that the phase and amplitude of the RF energy align with the natural standing wave pattern of the antenna. If you reversed it—connecting the shield to the short leg and the center to the long leg—it could disrupt the balance, increase common-mode currents on the coax shield, and degrade performance. Hence, **my understanding is the long wire should be connected to the coax shield and the short wire should be connected to the coax center.**
+
+*Update:* Upon further testing, it doesn't really seem to matter which element is connected to the coax center. Going forward **I am connecting the long wire to the coax center and the short wire to the shield** but in all honesty it probably doesn't matter.
 
 ### The Balun
 
