@@ -7,6 +7,8 @@ tags: [Delta, Loop]
 
 Loop antennas are lot of fun to play around with and have lots of advantages for Ham Radio. I made a 20M Delta Loop a couple of years ago. Recently, I built a new 4:1 hybrid balun for it.
 
+**UPDATE:** Since this post I have moved to using a 2:1 balun and it's better. See [the updated post here](https://jrschultz.github.io/VE5REV/posts/DLoopRevisited/).
+
 ![Delta](./assets/DeltaLoop/DeltaLoop.webp)
 
 ## Advantages
