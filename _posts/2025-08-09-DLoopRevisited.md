@@ -29,7 +29,15 @@ The sweeps were good and a noticeable improvement over the previous 4:1 build. T
 
 ## Conclusion
 
-This is a step in the right direction for the Delta Loop antenna. If I build more loops going forward, we are going to use the 2:1 as a benchmark and go from there. I will do a POTA activation with this setup in the near future and post the results here at that time.
+This is a step in the right direction for the Delta Loop antenna. If I build more loops going forward, we are going to use the 2:1 as a benchmark and go from there. 
+
+## POTA Activation Results
+
+This POTA Activation got cut short due to a dead battery that I thought was charged... ug. 26 Contacts in about 27 minutes and exceptional audio. This is a very clear and quiet antenna! It was positioned running East-West so that South was perpendicular to the loop (broad side). The pattern is interesting with no straight East or West contacts, possibly indicating a bit of a null off the ends. 
+
+![POTA](./assets/DLRevisit/DLRevisit-06.webp)
+
+![POTA](./assets/DLRevisit/DLRevisit-07.webp)
 
 73 de VE5REV
 
