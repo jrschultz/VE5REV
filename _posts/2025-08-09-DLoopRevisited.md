@@ -39,6 +39,12 @@ This POTA Activation got cut short due to a dead battery that I thought was char
 
 ![POTA](./assets/DLRevisit/DLRevisit-07.webp)
 
+## POTA Activation Results 2
+
+I went back for revenge after the previous battery debacle. With a fully charged battery I got 107 contacts in 1.5 hours, including some nice DX Contacts.  The map goofed the location because the TransCanada Trail defaults to Newfoundland. But I was operating from Moose Jaw, SK for this activation. World Radio League wouldn't let me change it for some reason. Very even coverage for the contacts with a noticable cluster into Illinois! 
+
+![POTA](./assets/DLRevisit/DLRevisit-08.webp)
+
 73 de VE5REV
 
 
