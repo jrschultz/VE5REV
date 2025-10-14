@@ -33,7 +33,9 @@ This post is a list of build component numbers for quick reference.
 
 + Size: 1.020" (25.91mm) OD. Core: 2661102002 [$10.57 in 2025]
 
-+ Size: 1.400” (35.56mm) OD. Core:  5961002701 [$8.30 in 2025]
++ Size: 1.400” (35.56mm) OD. Core: 5961002701 [$8.30 in 2025]
+
++ Size: 2.401" (61mm) OD. Core: 5961003801 [$20.97 in 2025]
 
 -----
 
