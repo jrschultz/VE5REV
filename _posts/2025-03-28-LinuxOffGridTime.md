@@ -7,7 +7,7 @@ tags: [Linux, Time, Sync]
 
 We all know that accurate time for Ham Radio digital modes is *imperative*. You've got to have it right and there's no substitute for it. So if you are off-grid and have no internet and can't use your phone to hotspot your laptop, what do you do? *No worries*! Your ICOM IC-705 has a built in GPS. It has accurate time anywhere in the world. But how do you sync with it? This tutorial might look daunting, but it's really not!
 
-![TimeSync](./assets/TimeSync/TS09.webp)
+![TimeSync](/assets/TimeSync/TS09.webp)
 
 ## IC-705 Settings
 
@@ -15,23 +15,23 @@ We all know that accurate time for Ham Radio digital modes is *imperative*. You'
 
 First we need to turn on the GPS on the radio. Press the MENU hard button on the bottom left of the radio and then follow these soft button presses: **PAGE 2>GPS>GPS SET>GPS SELECT>>ON**
 
-![GPS](./assets/TimeSync/TS01.webp)
+![GPS](/assets/TimeSync/TS01.webp)
 
-![GPS](./assets/TimeSync/TS02.webp)
+![GPS](/assets/TimeSync/TS02.webp)
 
-![GPS](./assets/TimeSync/TS03.webp)
+![GPS](/assets/TimeSync/TS03.webp)
 
 ### Turn on GPS Out
 
 Second, we need to tell the radio to push the GPS data out the USB connection. Press the MENU hard button and then follow these soft button presses: **SET>CONNECTORS>USB(B)FUNCTION>GPS OUT>>ON**
 
-![GPS](./assets/TimeSync/TS04.webp)
+![GPS](/assets/TimeSync/TS04.webp)
 
-![GPS](./assets/TimeSync/TS05.webp)
+![GPS](/assets/TimeSync/TS05.webp)
 
-![GPS](./assets/TimeSync/TS06.webp)
+![GPS](/assets/TimeSync/TS06.webp)
 
-![GPS](./assets/TimeSync/TS07.webp)
+![GPS](/assets/TimeSync/TS07.webp)
 
 ## Linux Settings
 
@@ -99,7 +99,7 @@ You can think of this like a doorway that opens to let the data into the compute
 
 Check that the data is coming through the socket by typing ```cgps``` in the terminal. This should barf out all the gps data in a couple of nice tables and a bunch of other streaming data.
 
-![cgps](./assets/TimeSync/TS08-cgps.webp)
+![cgps](/assets/TimeSync/TS08-cgps.webp)
 
 You can exit out of ```cgps``` by pressing ```q```
 
@@ -216,7 +216,7 @@ This is handy if you use your digital mode computer for both on and off-grid.
 
 This is everything you need to get rolling with off-grid time synchronization from the IC-705 on Linux. However, you can follow these additional next few steps if you want to automate this process further. 
 
-![ThumbsUp](./assets/TimeSync/TS11.webp)
+![ThumbsUp](/assets/TimeSync/TS11.webp)
 
 ## OPTIONAL: Further Automation 
 
@@ -344,7 +344,7 @@ This might *seem* like a lot of steps, but once it's all setup, you are golden f
 
 73 de VE5REV
 
-![TimeSync](./assets/TimeSync/TS12.webp)
+![TimeSync](/assets/TimeSync/TS12.webp)
 
 
 

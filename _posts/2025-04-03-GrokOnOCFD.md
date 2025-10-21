@@ -7,7 +7,7 @@ tags: [OCFD, Antennas, AI, Grok]
 
 AI is incredibly amazing technology. It is so highly sophisticated that it's scary. What if we leverage that for ham radio applications?
 
-![Grok](./assets/Grok/Grok.webp)
+![Grok](/assets/Grok/Grok.webp)
 
 ## Grok
 
@@ -69,7 +69,7 @@ What’s your setup like? Any gremlins you’re chasing? That’d help nail down
 
 73 de VE5REV
 
-![Grok](./assets/Grok/Grok2.webp)
+![Grok](/assets/Grok/Grok2.webp)
 
 
 
