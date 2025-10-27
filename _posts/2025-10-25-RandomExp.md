@@ -63,6 +63,8 @@ tags: [Baluns, Chokes, Dipole, Antennas]
 
 **Notes:**
 
+### FT140-61
+
 + "Type 61" - 9 Trifilar Turns. Size: 1.400” (35.56mm) OD. Core: 5961002701
 
 + Counterpoise wire was ~50' 18AWG wire. It was grounded to the tower and left separate (not grounded) for these readings.
@@ -78,6 +80,24 @@ tags: [Baluns, Chokes, Dipole, Antennas]
 + The non-grounded deployment did substantially better. The only bands the internal rig tuner on the IC-7300 couldn't tune were 160M (9:1 {not shown}) and 30M (4.3:1). 
 
 + I would like to try the Type 43 core with the 148' wire length for a further comparison.
+
+-----
+
+### FT240-61 
+
+**Notes:**
+
++ "Type 61" - 9 Trifilar Turns. Size: 2.401” (61mm) OD. Core: 5961003801
+
++ Wire: 14AWG Solid Copper
+
+![240](/assets/RandomExp/FT24061.webp)
+
+It's fascinating to see how the core size doesn't really change the response to the 450Ω load.
+
+![240](/assets/RandomExp/FT240-61-450.webp)
+
+![140](/assets/RandomExp/FT140-61-450.webp)
 
 73 de VE5REV
 
