@@ -9,7 +9,7 @@ gem "jekyll-archives", "~> 2.2"
 gem "jekyll-paginate", "~> 1.1"
 
 # CHIRPY v4.3.2 — compatible with Jekyll 3.10.0
-gem "jekyll-theme-chirpy", "~>7.2"
+gem "jekyll-theme-chirpy", ">=7.2.4", "<8.0"
 
 # Optional: local testing
 gem "html-proofer", "~> 5.0", group: :test
