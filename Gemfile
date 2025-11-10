@@ -1,4 +1,5 @@
 source "https://rubygems.org"
+# 20251110
 
 gem "jekyll"
 gem "jekyll-theme-chirpy"
