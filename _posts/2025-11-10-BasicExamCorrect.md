@@ -9,7 +9,7 @@ Below is the entire **July 15, 2025** Canadian Amateur Radio Exam Question Bank 
 
 *73 de VE5REV*
 
-[Link to PDF Version](/assets/BECO/BECO.pdf)
+[Link to PDF Version](https://github.com/jrschultz/VE5REV/blob/main/assets/BECO/BECO.pdf)
 
 -----
 ## Section 1 - Regulations and Policies 
