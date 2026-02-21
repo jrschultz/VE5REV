@@ -35,7 +35,21 @@ Second, we need to tell the radio to push the GPS data out the USB connection. P
 
 ## Linux Settings
 
-Linux is generally set to use Network Time Synchronization. This makes sure that when computers talk to each other, they have accurate time which is key for anything digital. This accurate network time comes from the internet automajically. For off-grid radio, we want to to tell the Linux operating system to instead get its time from the IC-705 GPS.  On [Windows](https://youtu.be/9HSfb1kp9NY?si=-U_v52ZNeOa0zM-F), there's an app that lets you pull the time from the radio and sync to it easily. On Linux, we will do it *ourselves* - like the total Unix Chad Master Race Members we are. 
+Linux is generally set to use Network Time Synchronization. This makes sure that when computers talk to each other, they have accurate time which is key for anything digital. This accurate network time comes from the internet automajically. 
+
+Here are a few commands for On-Grid time syncing:
+
+**Time-sync status:**
+```bash
+timedatectl status
+```
+
+**Force a time-sync refresh:**
+```bash
+sudo systemctl restart systemd-timesyncd.service
+```
+
+For off-grid radio, we want to to tell the Linux operating system to instead get its time from the IC-705 GPS.  On [Windows](https://youtu.be/9HSfb1kp9NY?si=-U_v52ZNeOa0zM-F), there's an app that lets you pull the time from the radio and sync to it easily. On Linux, we will do it *ourselves* - like the total Unix Chad Master Race Members we are. 
 
 ### A Note on Systemd 
 
