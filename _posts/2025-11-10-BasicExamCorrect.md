@@ -7,9 +7,13 @@ tags: [Canada, license, exam]
 
 Below is the entire **July 15, 2025** Canadian Amateur Radio Exam Question Bank with only the **CORRECT** answer listed.
 
-*73 de VE5REV*
-
 [Link to PDF Version](https://github.com/jrschultz/VE5REV/blob/main/assets/BECO/BECO.pdf)
+
+**Update:** We now have an entire video course available for the Basic Exam! [Check it out:](https://mjarc.ca/basic.html)
+
+![Basic](https://mjarc.ca/img/welcome.webp)
+
+*73 de VE5REV*
 
 -----
 ## Section 1 - Regulations and Policies 
