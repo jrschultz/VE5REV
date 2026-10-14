@@ -11,7 +11,7 @@ tags: [Oktoberfist,Portable,Challenge]
 
 I had the notion for a fun fall morse code challenge that I call _**Oktoberfist!**_ 
 
-+ 10, 10 contact CW Activations (POTA)
++ 10, 10 contact CW Activations (POTA) in October
 + 10 watts or less
 + 10MHz (30m Band)
 + 10WPM or more  
