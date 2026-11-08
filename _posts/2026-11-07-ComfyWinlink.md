@@ -235,7 +235,7 @@ Stay Comfy! 😌
 
 ![WXP](/assets/Xara/xara-01.webp)
 
-de VE5REV
+73 de VE5REV
 
 
 

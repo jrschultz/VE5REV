@@ -166,7 +166,7 @@ You can dump the table into a text file for printing/sharing securely:
 🔸[Black Swan](https://youtu.be/sloV7O3L8SM)
 
 
-de VE5REV
+73 de VE5REV
 
 
 
