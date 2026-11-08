@@ -7,6 +7,14 @@ tags: [winlink,xara,pat,email,off-grid]
 
 ![WXP](/assets/WXP/WXP-00.webp)
 
+## 🚨🚨**Curses!**🚨🚨 
+
+So not even a day after I published this guide, xara modem is gone. I have no idea what happened. This screenshot was published on the repo. Until further notice, this Comfy Guide is no longer comfy! 😥😥😥
+
+![WTF](/assets/WXP/OhNo.png)
+
+-----
+
 With the advent of [xara](https://github.com/x0rro/xara), a modern drop-in replacement for VARA, the world of winlink on Linux has changed forever. We can now get _comfy_ with winlink using xara and pat. This comfy guide is consolidated from my earlier posts:
 
 ✳️ [Winlink on Linux](https://jrschultz.github.io/VE5REV/posts/Winlink/)
