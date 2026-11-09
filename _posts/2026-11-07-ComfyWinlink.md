@@ -7,9 +7,9 @@ tags: [winlink,xara,pat,email,off-grid]
 
 ![WXP](/assets/WXP/WXP-00.webp)
 
-## 🚨🚨**Curses!**🚨🚨 
+## 🚨 Doh!
 
-So not even a day after I published this guide, xara modem is gone. I have no idea what happened. This screenshot was published on the repo. Until further notice, this Comfy Guide is no longer comfy! 😥😥😥
+So not even a day after I published this guide, xara modem ceased development. 😥 I have no idea what happened. This screenshot was published on the repo. I will provide a link to a fork in this guide instead of the original repo. 🥀#RIPxara🪦
 
 ![WTF](/assets/WXP/OhNo.png)
 
@@ -88,8 +88,11 @@ sudo apt install cargo-1.91 libpulse-dev libasound2-dev
 ⚠️ **NOTE:** add ```--features registered``` if you have a registered version of VARA. Otherwise you can leave it out and use the following:
 
 ```bash
-cargo-1.91 install --locked --force --git https://github.com/x0rro/xara xara
+cargo-1.91 install --locked --force --git https://github.com/9m2pju/xara xara
 ```
+
+⚠️ **NOTE:** The above link is to a fork of xara as the original repo is offline🍴 
+
 
 ### 📮 pat Winlink install
 
