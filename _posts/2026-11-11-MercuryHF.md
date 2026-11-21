@@ -122,7 +122,7 @@ The default example ```ini``` file has a lot of options. This is my pared-down f
 
 ```bash
 [main]
-ui_enabled = true
+ui_enabled = false
 ui_port = 10000
 ui_protocol = wss
 ui_tls_cert = /etc/ssl/certs/hermes.radio.crt
@@ -143,8 +143,8 @@ freedv_verbosity = 0
 
 [ptt]
 method = hamlib
-device = "/dev/ttyACM0"
-hamlib_model = 3085
+device = 127.0.0.1:4532
+hamlib_model = 2
 hamlib_serial_speed = 38400
 hamlib_conf = ""
 hamlib_log_level = 0
@@ -158,7 +158,7 @@ mfsk_tx_only = false
 max_keydown_s = 0
 
 [channel]
-busy_detect = true
+busy_detect = false
 busy_threshold_db = 10
 busy_hysteresis_db = 3
 busy_on_debounce_ms = 300
