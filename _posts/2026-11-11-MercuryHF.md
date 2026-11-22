@@ -198,12 +198,13 @@ Mercury conveniently gives you a terminal command for finding your sound cards. 
 mercury -z # List available sound cards
 ```
 
-In the ```ptt``` section, I'm using ```hamlib``` with settings for the reference IC-705:
+In the ```ptt``` section, I'm using ```hamlib``` with settings for the reference IC-705. I'm running the ```rigctld``` first, then the mercury modem taps into the daemon:
 
 ```bash
 [ptt]
-device = "/dev/ttyACM0"
-hamlib_model = 3085
+method = hamlib
+device = 127.0.0.1:4532
+hamlib_model = 2
 hamlib_serial_speed = 38400
 ```
 
